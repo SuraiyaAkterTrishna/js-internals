@@ -3,8 +3,9 @@
 } */
 console.log('first');
 console.log('second');
-setTimeout(() => {
+const skip = setTimeout(() => {
     console.log('third');
 }, 3000);
+clearTimeout(skip);
 console.log('fourth');
 console.log('fifth');
