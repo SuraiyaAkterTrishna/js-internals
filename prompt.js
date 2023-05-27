@@ -21,5 +21,13 @@ const askSomething = () => {
     else{
         alert("DGM - Dure giya Mor");
     }
+}
 
+// prompt box
+const getUserInfo = () => {
+    const name = prompt('Tell us your name.');
+    // console.log(name);
+    if(!!name){
+        console.log('Welcome here', name);
+    }
 }
